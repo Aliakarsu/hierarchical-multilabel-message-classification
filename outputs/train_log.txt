@@ -1,0 +1,23 @@
+2026-07-10 10:54:08,991 | WARNING | src.data_loader | Dropping ghost columns ['Unnamed: 11', 'Unnamed: 12'] from AppGallery.csv
+2026-07-10 10:54:08,993 | INFO | src.data_loader | Loaded AppGallery.csv: 122 rows
+2026-07-10 10:54:09,006 | INFO | src.data_loader | Loaded Purchasing.csv: 84 rows
+2026-07-10 10:54:09,006 | INFO | src.data_loader | Combined dataset: 206 rows
+2026-07-10 10:54:09,009 | INFO | src.data_loader | Dropped 2 rows with empty interaction content.
+2026-07-10 10:54:09,010 | INFO | src.data_loader | Input data validation passed.
+2026-07-10 10:54:09,014 | INFO | src.preprocessing | Row-level de-duplication removed 2 rows.
+2026-07-10 10:54:09,084 | INFO | train | After preprocessing: 202 rows
+2026-07-10 10:54:09,087 | INFO | train | Split: 151 train / 51 test rows
+2026-07-10 10:54:09,160 | INFO | src.features | TF-IDF fitted on training data only: 2000 terms.
+2026-07-10 10:54:09,210 | INFO | train | Training configuration: independent_rf
+2026-07-10 10:54:11,636 | INFO | train | Metrics for independent_rf: {'model': 'independent_rf', 'y2_accuracy': 0.8235, 'y2_f1_weighted': 0.8219, 'y3_accuracy': 0.7255, 'y3_f1_weighted': 0.7342, 'y4_accuracy': 0.7451, 'y4_f1_weighted': 0.7169, 'exact_match_accuracy': 0.6078, 'hierarchical_prefix_accuracy': 0.7059}
+2026-07-10 10:54:12,136 | INFO | matplotlib.font_manager | Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: Can not load face (unknown file format; error code 0x2)
+2026-07-10 10:54:12,573 | INFO | matplotlib.font_manager | generated new fontManager
+2026-07-10 10:54:13,110 | INFO | src.evaluation | Saved confusion_matrix_independent_rf_y2.png
+2026-07-10 10:54:13,116 | INFO | src.evaluation | Saved error_analysis_independent_rf.csv (20 misclassified rows in total)
+2026-07-10 10:54:13,116 | INFO | train | Training configuration: chained_rf
+2026-07-10 10:54:15,327 | INFO | train | Metrics for chained_rf: {'model': 'chained_rf', 'y2_accuracy': 0.8235, 'y2_f1_weighted': 0.8219, 'y3_accuracy': 0.7255, 'y3_f1_weighted': 0.7388, 'y4_accuracy': 0.7255, 'y4_f1_weighted': 0.6962, 'exact_match_accuracy': 0.6471, 'hierarchical_prefix_accuracy': 0.7255}
+2026-07-10 10:54:15,481 | INFO | src.evaluation | Saved confusion_matrix_chained_rf_y2.png
+2026-07-10 10:54:15,486 | INFO | src.evaluation | Saved error_analysis_chained_rf.csv (18 misclassified rows in total)
+2026-07-10 10:54:15,486 | INFO | src.evaluation | Saved metrics.json
+2026-07-10 10:54:15,486 | INFO | train | Selected serving model: chained_rf
+2026-07-10 10:54:15,774 | INFO | train | Artefacts saved to /home/claude/customer-message-classifier/artifacts

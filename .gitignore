@@ -1,0 +1,15 @@
+# Veri dosyalari (musteri mesajlari icerebilir)
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Isletim sistemi / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
