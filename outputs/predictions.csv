@@ -1,0 +1,6 @@
+message_id,text_reference,predicted_y2,confidence_y2,predicted_y3,confidence_y3,predicted_y4,confidence_y4,needs_human_review,model_name,model_version,prediction_timestamp
+1,AppGallery update problem,Suggestion,0.3615,General,0.32,Personal data,0.3633,True,chained_rf,v1.0,2026-07-10T10:54:26.721731+00:00
+2,Refund request,Suggestion,0.5713,Payment,0.4833,Subscription cancellation,0.6033,True,chained_rf,v1.0,2026-07-10T10:54:26.721731+00:00
+3,Login issue,Suggestion,0.7161,Payment,0.5767,Subscription cancellation,0.6833,False,chained_rf,v1.0,2026-07-10T10:54:26.721731+00:00
+4,Subscription cancellation,Suggestion,0.6931,Payment,0.6133,Subscription cancellation,0.76,False,chained_rf,v1.0,2026-07-10T10:54:26.721731+00:00
+5,General feedback,Suggestion,0.6253,Payment,0.6167,Subscription cancellation,0.7933,False,chained_rf,v1.0,2026-07-10T10:54:26.721731+00:00

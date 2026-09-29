@@ -1,6 +1,3 @@
-# Veri dosyalari (musteri mesajlari icerebilir)
-*.csv
-
 # Python
 __pycache__/
 *.pyc
